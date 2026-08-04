@@ -8,7 +8,7 @@ This project requires a Linux environment to compile the underlying C library.
 
 1. Update the package list and install the required compilers, CMake, and Python tools:
 
-  (`sudo apt update`)
+          (`sudo apt update`)
 
   (`sudo apt install -y git build-essential cmake libssl-dev python3 python3-pip python3-venv`)
 
