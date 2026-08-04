@@ -28,8 +28,8 @@ This project requires a Linux environment to compile the underlying C library.
 
 5. Set up the python environment: Return to the root folder to execute thee commands
 
-          (`python3 -m venv pqc_env`)
-          (`source pqc_env/bin/activate`)
+          (`python3 -m venv mlkem_env`)
+          (`source mlkem_env/bin/activate`)
 
 5. Install the python wrapper
 
