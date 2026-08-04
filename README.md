@@ -6,17 +6,17 @@ This project demonstrates a Post-Quantum Key Encapsulation Mechanism (KEM) using
 
 This project requires a Linux environment to compile the underlying C library.
 
-1. Update the package list and install the required compilers, CMake, and Python tools:
+1. Update the package list and install the required compilers, CMake, and Python tools
 
           (`sudo apt update`)
           (`sudo apt install -y git build-essential cmake libssl-dev python3 python3-pip python3-venv`)
 
-2. The script relies on (`liboqs`) library which can be cloned from github.
+2. The script relies on (`liboqs`) library which can be cloned from github
 
           (`git clone [https://github.com/open-quantum-safe/liboqs.git](https://github.com/open-quantum-safe/liboqs.git)`)
           (`cd liboqs`)
 
-3. Configure the build environment.
+3. Configure the build environment
 
           (`mkdir build && cd build`)
           (`cmake -DOQS_USE_OPENSSL=OFF ..`)
