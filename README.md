@@ -26,9 +26,7 @@ This project requires a Linux environment to compile the underlying C library.
           (`make`)
           (`sudo make install`)
 
-5. Set up the python environment
-
-          Return to the root folder to execute thee commands
+5. Set up the python environment: Return to the root folder to execute thee commands
 
           (`python3 -m venv pqc_env`)
           (`source pqc_env/bin/activate`)
