@@ -37,4 +37,5 @@ This project requires a Linux environment to compile the underlying C library.
 
 6. Run the program
 
-          python3 mlkem.py
+          python3 client.py
+          python3 server.py
