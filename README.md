@@ -35,7 +35,11 @@ This project requires a Linux environment to compile the underlying C library.
 
           pip install liboqs-python
 
-6. Run the program
+6. Capture packets
+
+          sudo tcpdump -i lo port 65432 -w pqc_capture.pcap
+   
+7. Run the program
 
           python3 client.py
           python3 server.py
