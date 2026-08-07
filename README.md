@@ -2,6 +2,8 @@
 
 This project demonstrates a Post-Quantum Key Encapsulation Mechanism (KEM) using the NIST-approved ML-KEM algorithm. It utilizes the Open Quantum Safe (`liboqs`) C library and its Python wrapper to simulate a quantum-safe handshake.
 
+The concept of Post Quantum Cryptography and implementation of NIST ML-KEM PQC algorithm has been documented in [Post Quantum Cryptography](https://github.com/dhakalaayush/Post-Quantum-Cryptography/blob/main/Post%20Quantum%20Cryptography.pdf).
+
 ## Requirements
 
 This project requires a Linux environment to compile the underlying C library.
